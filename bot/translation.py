@@ -10,7 +10,7 @@ class Translation(object):
 ஒவ்வொரு முறையும் நீங்கள் தேடிய புத்தகத்தை டவுண்லோட் செய்ய இங்கு வரும்போதும் கீழேயுள்ள START என்பதை கிளிக் செய்தால் மட்டுமே உங்களுக்கான புத்தகம் கிடைக்கும்.
 
 For More Details Click Help Button Below..
-@WeCanWinAcademy
+@tamilbooksworld
 </i>"""    
     
     HELP_TEXT = """
@@ -43,12 +43,12 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@WeCanWinAcademy
+@tamilbooksworld
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Noolagar Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/WeCanWinAcademy">Balaji</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/WeCanWinAcademy">WeCanWinAcademy</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
