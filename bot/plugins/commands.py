@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel', url="https://t.me/librarytamil"
+                                    'Channel', url="https://t.me/tamilbooksworld"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel', url="https://t.me/librarytamil"
+                                    'Channel', url="https://t.me/tamilbooksworld"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel', url="https://t.me/librarytamil"
+                                    'Channel', url="https://t.me/tamilbooksworld"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Channel', url='https://t.me/librarytamil'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Hemas0308/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Channel', url='https://t.me/tamilbooksworld'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/wecanwin/Noolagar')
     ],[
-        InlineKeyboardButton('Group 📚', url='https://t.me/aedahamlibrary_noolakam')
+        InlineKeyboardButton('Group 📚', url='https://t.me/NoolagamLibrary')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
