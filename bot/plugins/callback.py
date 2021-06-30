@@ -1601,14 +1601,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/bookflowerss">@bookflowerss</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Hemas0308/Adv-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/NoolagamLibrary">@NoolagamLibrary</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/wecanwin/Noolagar">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/kaimudinjavai"
+                    "My Dev ⚡", url="https://t.me/BabuAgaram"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/kaimudinjavai'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Hemas0308/Adv-Auto-Filter-Bot-V2')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/BabuAgaram'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/wecanwin/Noolagar')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/aedahamlibrary_noolakam')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/NoolagamLibrary')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
